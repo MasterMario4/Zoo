@@ -1,23 +1,23 @@
 package Animals;
 
-public class Eagle implements IAnimal {
+public class Tiger implements IAnimal {
     @Override
     public String getName() {
-        return "Eagle";
+        return "Tiger";
     }
 
     @Override
     public String makeNoise() {
-        return "IIIIIIII";
+        return "RRRRROOOOOOOOOAAAAAAARRRRR!";
     }
 
     @Override
     public boolean canSwim() {
-        return false;
+        return true;
     }
 
     @Override
     public boolean canFly() {
-        return true;
+        return false;
     }
 }
