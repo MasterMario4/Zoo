@@ -1,13 +1,13 @@
 package Animals;
 
-public class Horse implements IAnimal {
+public class Eagle implements IAnimal {
     @Override
     public String getName() {
-        return "Horse";
+        return "Eagle";
     }
 
     @Override
     public String makeNoise() {
-        return "IIIIIAAAAAA";
+        return "IIIIIIII";
     }
 }
